@@ -1,0 +1,124 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #15120b;
+    width:100%;
+    background-image: url(http://paperlief.com/images/cool-backgrounds-hd-wallpaper-1.jpg);
+}
+
+#buttonSection {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #a91212;
+    border-bottom: 2px solid #15120b;
+    font-family: 'Roboto', sans-serif;`
+}
+
+.topicButton {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 8px;
+    margin: 3px;
+    color: #a02a06;
+    outline: none;
+    border: 3px solid #a02a06;
+    background-color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topicButton:hover {
+    color: #a02a06;
+    background-color: white;
+}
+
+#buttonSection:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#addButtonForm {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #122f79;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+#topicInput {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 8px 0px 6px;
+ 
+    outline: none;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid #a91212;
+    transition: all .3s ease;
+    background: rgb(0, 78, 162);
+}
+
+#topicInput:focus {
+    border-bottom-color: #a02a06;
+}
+
+#topicButton {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 8px;
+    margin: 3px;
+    color: #a91212;
+    outline: none;
+    border: 3px solid  #a91212;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#topicButton:hover {
+    color: #15120b;
+    background-color: #a91212;
+}
+
+#gifSection {
+    text-align: center;
+}
+
+.gifWrapper {
+    display: inline-block;
+    background-color: #a91212;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.gifWrapper:hover {
+    background-color: #a91212;
+}
+
+.gifImage {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+    .topicButton:hover {
+        color: #a02a06;
+        background-color: white;
+    }
+
+    #topicButton:hover {
+        color: unset;
+        background-color: unset;
+    }
+
+    .gifWrapper:hover {
+        background-color: unset;
+    }
+}
